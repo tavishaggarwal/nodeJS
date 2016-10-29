@@ -1,0 +1,14 @@
+{
+  "name": "mongo_node_connection",
+  "version": "1.0.0",
+  "description": "Connecting node js application with mongo database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tavish",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.11"
+  }
+}
