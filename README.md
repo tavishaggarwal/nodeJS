@@ -23,4 +23,5 @@ Installing mongoDB on mac:
  - show collections -> to see all tables or documents in database
  - db.COLLECTION_NAME.find() -> to find rows in collection
 
-
+Default installation directory of mongoDB:
+/usr/local/var/mongodb
