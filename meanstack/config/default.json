@@ -1,0 +1,10 @@
+{
+  // Configure dbname and collection name 
+  "Myapp": {
+    "dbConfig": {
+      "dbURL":"127.0.0.1:27017/",
+      "dbName": "contactlist",
+      "collectionName": ["contactlist"]
+    }
+  }
+}
