@@ -2,13 +2,13 @@ var app = angular.module('myapp',[]);
 
 app.controller("myController",function($scope,$http){
 
-var refresh = function(){
-    $http.get("/contactlist").success(function(response){
-        //console.log(response);
-        $scope.contactlist = response;
-        $scope.contact="";
-    });
-};
+    var refresh = function(){
+        $http.get("/contactlist").success(function(response){
+            //console.log(response);
+            $scope.contactlist = response;
+            $scope.contact="";
+        });
+    };
 
  refresh();
 

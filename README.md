@@ -22,7 +22,7 @@ Installing mongoDB on mac:
  Commands for mongoDB shell:
  - show collections -> to see all tables or documents in database
  - db.COLLECTION_NAME.find() -> to find rows in collection
- db.COLLECTION_NAME.find().pretty() -> for pretty view
+ - db.COLLECTION_NAME.find().pretty() -> for pretty view
 
 Default installation directory of mongoDB:
 /usr/local/var/mongodb
